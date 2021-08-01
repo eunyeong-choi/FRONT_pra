@@ -18,6 +18,7 @@
 	</tr>
 </table>
 <input type="submit" value="로그인">
+<a href="signup.jsp"><button>회원가입</button></a>
 </form>
 </body>
 </html>

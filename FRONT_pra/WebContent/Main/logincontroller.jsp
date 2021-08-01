@@ -17,6 +17,7 @@
 	int result = mdao.login(mid, mpw);
 	if( result == 1){
 		response.sendRedirect("main.jsp");
+		session.setAttribute("mid",mid);
 	}
 
 %>
