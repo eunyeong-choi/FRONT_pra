@@ -20,12 +20,12 @@
 	SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd hh:mm:ss");
 	String cdate = sdf.format(date);
 	
-	Comment comment = new Comment(cid,ccomment,cdate);
+	//Comment comment = new Comment(cid,ccomment,cdate);
 	CommentDao cdao = CommentDao.getinstance();
-	int result = cdao.commentadd(comment);
-	if(result == 1){
-		response.sendRedirect("boardview.jsp");
-	}
+	//int result = cdao.commentadd(comment);
+	//if(result == 1){
+	//	response.sendRedirect("boardview.jsp");
+	//}
 	
 %>
 </body>

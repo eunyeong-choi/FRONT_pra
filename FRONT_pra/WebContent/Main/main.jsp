@@ -8,6 +8,7 @@
 </head>
 <body>
 <h3>회원제 게시판 메인페이지</h3>
+<!-- Day14 -->
 <table border="1">
 	<tr>
 		<td><a href="signup.jsp">회원가입</a></td>
